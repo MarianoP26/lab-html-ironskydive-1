@@ -10,9 +10,30 @@ body {
   font-family: 'Roboto';
 }
 
-/* header {
-    background-image:'https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironhack-skydive-background.jpg';
-} */
+header {
+    height: 650px;
+}
+
+.header {
+    background-image:url('https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironhack-skydive-background.jpg');
+    position: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header h2 {
+    color: white;
+    text-shadow: #020819 8px -20px 9px;
+    font-size: 38px;
+}
+
+.header h1{
+    font-size: 50px;
+}
+
+.quote {
+    font-size: 2.5em;
+}
 
 ul{
     list-style: none;
@@ -21,7 +42,7 @@ ul{
     justify-content: space-evenly;
 }
 
-li a{
+.nav-bar a{
     color: white;
     text-decoration: none;
     font-size: 2em;
@@ -56,7 +77,96 @@ h5 {
     line-height: 1em;
 }
 
-nav {
+.nav-bar {
     background-color: rgb(25, 33, 41);
     color: white;
+}
+
+.dark-background {
+    background-color: #020819;
+    color: white;
+}
+
+.text {
+    font-size: 2em;
+    font-weight: 100;
+    text-align: center;
+}
+
+.link-btn {
+    background-color: rgb(67,163,230);
+    color: white;
+    font-family: Roboto Condensed;
+    font-size: 2em;
+    letter-spacing: 0.5px;
+    text-align: center;
+    text-decoration: none;
+}
+
+#general-information {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.service-box {
+    font-size: 1.7em;
+    text-align: center;
+}
+
+.service-box img {
+    width: 125px;
+}
+
+#team .section-text {
+    font-size: 1.9em;
+    text-align: center;
+}
+
+#team .member-name {
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+#team img {
+    width: 250px;
+    height: 180px;
+}
+
+.footer {
+    text-align: center;
+    font-size: 1.9em;
+}
+
+.footer a {
+    color: rgb(67,163,230);
+    text-decoration: none;
+}
+
+.address {
+    font-style: normal;
+    font-size: 0.8em;
+}
+
+#schedule {
+    text-align: center;
+}
+
+table {
+    border: 3px solid black;
+    background-color: aliceblue;
+    text-align: center;
+    margin: auto;
+
+}
+th{
+    border: 1px solid black;
+}
+td{
+    border: 1px solid black;
+    font-weight: 700;
+}
+td:hover{
+    cursor: pointer;
+    transform: scale(1.1);
 }
