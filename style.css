@@ -10,6 +10,10 @@ body {
   font-family: 'Roboto';
 }
 
+/* header {
+    background-image:'https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironhack-skydive-background.jpg';
+} */
+
 ul{
     list-style: none;
     display: flex;
