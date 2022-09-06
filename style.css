@@ -119,18 +119,29 @@ h5 {
 }
 
 #team .section-text {
-    font-size: 1.9em;
+    font-size: 1.2em;
     text-align: center;
 }
 
 #team .member-name {
     font-size: 1.5em;
     font-weight: 700;
+    cursor: pointer;
+}
+
+#team .member-name:hover{
+    color: cyan;
+    transition-duration: 0.5        s;
 }
 
 #team img {
     width: 250px;
     height: 180px;
+    cursor: pointer;
+}
+
+#team img:hover{
+    transform:scale(1.1);
 }
 
 .footer {
@@ -169,4 +180,47 @@ td{
 td:hover{
     cursor: pointer;
     transform: scale(1.1);
+}
+
+#structure div{
+    display: grid;
+    grid-template-columns: repeat(2, minmax(150px, 2fr));
+    grid-template-rows: repeat(2, minmax(150px, 2fr));
+    grid-row: auto auto;
+    grid-column-gap: 50px;
+    grid-row-gap: 50px;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+    margin: 50px 200px 50px 200px;
+}
+
+#structure article {
+    border: 1px solid black;
+    -webkit-box-shadow: 9px 10px 22px -15px rgba(153,0,153,1);
+    -moz-box-shadow: 9px 10px 22px -15px rgba(153,0,153,1);
+    box-shadow: 9px 10px 22px -15px rgba(153,0,153,1);
+    padding: 10px;
+}
+
+#structure p {
+    font-size: 0.8em;
+}
+
+#team h3{
+    padding-top: 50px;
+    font-size: 2.5em;
+}
+
+hr {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+#team div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
 }
